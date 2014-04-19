@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		9560C54B190301BB000A7D27 /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9560C54A190301BB000A7D27 /* ToDoItem.m */; };
 		9560C54D190305B6000A7D27 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9560C54C190305B6000A7D27 /* ViewController.xib */; };
+		9560C55219030C87000A7D27 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9560C55119030C87000A7D27 /* TableViewCell.m */; };
+		9560C55419030CF0000A7D27 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9560C55319030CF0000A7D27 /* QuartzCore.framework */; };
+		9560C55819031192000A7D27 /* StrikethroughLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9560C55719031192000A7D27 /* StrikethroughLabel.m */; };
 		959EB6B41902F8E100965DD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959EB6B31902F8E100965DD2 /* Foundation.framework */; };
 		959EB6B61902F8E100965DD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959EB6B51902F8E100965DD2 /* CoreGraphics.framework */; };
 		959EB6B81902F8E100965DD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959EB6B71902F8E100965DD2 /* UIKit.framework */; };
@@ -38,6 +41,12 @@
 		9560C549190301BB000A7D27 /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
 		9560C54A190301BB000A7D27 /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
 		9560C54C190305B6000A7D27 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		9560C55019030C87000A7D27 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		9560C55119030C87000A7D27 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		9560C55319030CF0000A7D27 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9560C55519030FBA000A7D27 /* TableViewCellDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCellDelegate.h; sourceTree = "<group>"; };
+		9560C55619031192000A7D27 /* StrikethroughLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrikethroughLabel.h; sourceTree = "<group>"; };
+		9560C55719031192000A7D27 /* StrikethroughLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrikethroughLabel.m; sourceTree = "<group>"; };
 		959EB6B01902F8E100965DD2 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		959EB6B31902F8E100965DD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		959EB6B51902F8E100965DD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9560C55419030CF0000A7D27 /* QuartzCore.framework in Frameworks */,
 				959EB6B61902F8E100965DD2 /* CoreGraphics.framework in Frameworks */,
 				959EB6B81902F8E100965DD2 /* UIKit.framework in Frameworks */,
 				959EB6B41902F8E100965DD2 /* Foundation.framework in Frameworks */,
@@ -104,6 +114,7 @@
 		959EB6B21902F8E100965DD2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9560C55319030CF0000A7D27 /* QuartzCore.framework */,
 				959EB6B31902F8E100965DD2 /* Foundation.framework */,
 				959EB6B51902F8E100965DD2 /* CoreGraphics.framework */,
 				959EB6B71902F8E100965DD2 /* UIKit.framework */,
@@ -122,6 +133,11 @@
 				9560C54C190305B6000A7D27 /* ViewController.xib */,
 				9560C549190301BB000A7D27 /* ToDoItem.h */,
 				9560C54A190301BB000A7D27 /* ToDoItem.m */,
+				9560C55019030C87000A7D27 /* TableViewCell.h */,
+				9560C55119030C87000A7D27 /* TableViewCell.m */,
+				9560C55619031192000A7D27 /* StrikethroughLabel.h */,
+				9560C55719031192000A7D27 /* StrikethroughLabel.m */,
+				9560C55519030FBA000A7D27 /* TableViewCellDelegate.h */,
 				959EB6CB1902F8E100965DD2 /* Images.xcassets */,
 				959EB6BA1902F8E100965DD2 /* Supporting Files */,
 			);
@@ -257,6 +273,8 @@
 				959EB6CA1902F8E100965DD2 /* ViewController.m in Sources */,
 				959EB6C41902F8E100965DD2 /* AppDelegate.m in Sources */,
 				9560C54B190301BB000A7D27 /* ToDoItem.m in Sources */,
+				9560C55219030C87000A7D27 /* TableViewCell.m in Sources */,
+				9560C55819031192000A7D27 /* StrikethroughLabel.m in Sources */,
 				959EB6C01902F8E100965DD2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
