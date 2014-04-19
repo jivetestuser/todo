@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9560C54B190301BB000A7D27 /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9560C54A190301BB000A7D27 /* ToDoItem.m */; };
+		9560C54D190305B6000A7D27 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9560C54C190305B6000A7D27 /* ViewController.xib */; };
 		959EB6B41902F8E100965DD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959EB6B31902F8E100965DD2 /* Foundation.framework */; };
 		959EB6B61902F8E100965DD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959EB6B51902F8E100965DD2 /* CoreGraphics.framework */; };
 		959EB6B81902F8E100965DD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959EB6B71902F8E100965DD2 /* UIKit.framework */; };
 		959EB6BE1902F8E100965DD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 959EB6BC1902F8E100965DD2 /* InfoPlist.strings */; };
 		959EB6C01902F8E100965DD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 959EB6BF1902F8E100965DD2 /* main.m */; };
 		959EB6C41902F8E100965DD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 959EB6C31902F8E100965DD2 /* AppDelegate.m */; };
-		959EB6C71902F8E100965DD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959EB6C51902F8E100965DD2 /* Main.storyboard */; };
 		959EB6CA1902F8E100965DD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 959EB6C91902F8E100965DD2 /* ViewController.m */; };
 		959EB6CC1902F8E100965DD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959EB6CB1902F8E100965DD2 /* Images.xcassets */; };
 		959EB6D31902F8E100965DD2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959EB6D21902F8E100965DD2 /* XCTest.framework */; };
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9560C549190301BB000A7D27 /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		9560C54A190301BB000A7D27 /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
+		9560C54C190305B6000A7D27 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		959EB6B01902F8E100965DD2 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		959EB6B31902F8E100965DD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		959EB6B51902F8E100965DD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +48,6 @@
 		959EB6C11902F8E100965DD2 /* Todo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Todo-Prefix.pch"; sourceTree = "<group>"; };
 		959EB6C21902F8E100965DD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		959EB6C31902F8E100965DD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		959EB6C61902F8E100965DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		959EB6C81902F8E100965DD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		959EB6C91902F8E100965DD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		959EB6CB1902F8E100965DD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -114,9 +117,11 @@
 			children = (
 				959EB6C21902F8E100965DD2 /* AppDelegate.h */,
 				959EB6C31902F8E100965DD2 /* AppDelegate.m */,
-				959EB6C51902F8E100965DD2 /* Main.storyboard */,
 				959EB6C81902F8E100965DD2 /* ViewController.h */,
 				959EB6C91902F8E100965DD2 /* ViewController.m */,
+				9560C54C190305B6000A7D27 /* ViewController.xib */,
+				9560C549190301BB000A7D27 /* ToDoItem.h */,
+				9560C54A190301BB000A7D27 /* ToDoItem.m */,
 				959EB6CB1902F8E100965DD2 /* Images.xcassets */,
 				959EB6BA1902F8E100965DD2 /* Supporting Files */,
 			);
@@ -229,8 +234,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				959EB6CC1902F8E100965DD2 /* Images.xcassets in Resources */,
+				9560C54D190305B6000A7D27 /* ViewController.xib in Resources */,
 				959EB6BE1902F8E100965DD2 /* InfoPlist.strings in Resources */,
-				959EB6C71902F8E100965DD2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +256,7 @@
 			files = (
 				959EB6CA1902F8E100965DD2 /* ViewController.m in Sources */,
 				959EB6C41902F8E100965DD2 /* AppDelegate.m in Sources */,
+				9560C54B190301BB000A7D27 /* ToDoItem.m in Sources */,
 				959EB6C01902F8E100965DD2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,14 +286,6 @@
 				959EB6BD1902F8E100965DD2 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		959EB6C51902F8E100965DD2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				959EB6C61902F8E100965DD2 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		959EB6DB1902F8E100965DD2 /* InfoPlist.strings */ = {
@@ -379,6 +377,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Todo/Todo-Prefix.pch";
 				INFOPLIST_FILE = "Todo/Todo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +391,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Todo/Todo-Prefix.pch";
 				INFOPLIST_FILE = "Todo/Todo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +456,7 @@
 				959EB6E41902F8E100965DD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		959EB6E51902F8E100965DD2 /* Build configuration list for PBXNativeTarget "TodoTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +465,7 @@
 				959EB6E71902F8E100965DD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
